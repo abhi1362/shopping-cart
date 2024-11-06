@@ -1,0 +1,34 @@
+.category-sidemenu{
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    height: 100%;
+}
+.category-sidemenu button{
+    font-weight: 600;
+    padding: 14px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    text-align: left;
+    cursor: pointer;
+}
+
+.category-sidemenu button:hover,.focus-button{
+    color:white;
+    background-color: rgb(94, 92, 92);
+}
+.category-sidemenu-select{
+    display: none;
+}
+@media screen and (max-width: 620px) {
+    .category-sidemenu{
+        display: none;
+    }
+    .category-sidemenu-select{
+        display: block;
+    }
+    .category-sidemenu-select .form-control{
+        color: white;
+        background-color: #b8113b;
+    }
+}

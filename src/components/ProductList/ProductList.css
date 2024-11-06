@@ -1,0 +1,19 @@
+
+@media screen and (max-width: 1200px) {
+    .product-list-col{
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+@media screen and (max-width: 834px) {
+    .product-list-col{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 440px) {
+    .product-list-col{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

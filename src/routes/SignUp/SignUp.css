@@ -1,0 +1,73 @@
+.signup-text{
+    font-weight: 600;
+}
+.txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 28px 0 ;
+}
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    font-size: 16px;
+    height: 40px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #000000;;
+    transform: translateY(-50%);
+    font-size: 14px;
+    pointer-events: none;
+    transition: .5s;
+}
+.txt_field input:focus{
+    border-bottom: 2px solid #0ecfb8;
+    position: relative;
+    top: 2px;
+}
+.txt_field input:focus ~ label,
+  .txt_field input:valid ~ label{
+    top: 0px;
+    color: #0ecfb8;
+}
+.signup-btn{
+    width: 100%;
+    padding: 8px;
+    color: white;
+    background-color: #b8113b;
+    border: none;
+    cursor: pointer;
+}
+.error-text{
+    margin-bottom: 0;
+    position: absolute;
+    top: 41px;
+    left: 0px;
+    color: #A30A0A;
+}
+.error-message{
+    color: #A30A0A;
+}
+.singup-heading-col{
+    padding-left: 138px;
+}
+@media screen and (max-width: 950px) {
+    .singup-heading-col{
+        padding-left: 84px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .singup-heading-col{
+        padding-left: 33px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .singup-heading-col{
+        padding-left: 18px;
+    }
+}

@@ -1,0 +1,6 @@
+@media screen and (max-width: 620px) {
+    .product-container-col{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

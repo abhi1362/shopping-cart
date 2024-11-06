@@ -1,0 +1,78 @@
+.page-header{
+    -webkit-box-shadow: 0px 8px 6px -6px #00000038;
+    -moz-box-shadow: 0px 8px 6px -6px #00000038;
+    box-shadow: 0px 8px 6px -6px #00000038;
+}
+.cart-nav{
+    display: flex;
+    align-items: flex-end;
+}
+.cart-nav a{
+    padding: 10px;
+    color: #0f0f0f;
+    font-weight: 600;
+}
+.cart-nav a:hover{
+    text-decoration: none;
+}
+.auth-nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.auth-nav a{
+    padding: 5px;
+    color: #0f0f0f;
+    font-weight: 600;
+}
+.auth-nav a:hover{
+    text-decoration: none;
+}
+.auth-nav-row{
+    font-size: 14px;
+}
+.fa-cart-shopping{
+    width: 22px;
+    color: #E52254;
+    position: relative;
+    right: 8px;
+}
+.fa-cart-btn{
+    border: 1px solid #f0f0f0;
+    background-color: #f0f0f0;
+    padding: 9px 15px;
+    cursor: pointer;
+    color: #0f0f0f;
+    font-weight: 600;
+}
+.logo-img img{
+    width: 190px;
+    height: 86px;
+}
+@media screen and (max-width: 992px) {
+    .container{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .logo-img img{
+        width: 136px;
+        height: 72px;
+    }
+}
+@media screen and (max-width: 388px) {
+    .logo-img img{
+        width: 100px;
+        height: 45px;
+    }
+    .cart-nav{
+        position: relative;
+        top: 5px;
+        right: 35%;
+    }
+    .cart-nav a{
+        padding: 5px;
+    }
+}
